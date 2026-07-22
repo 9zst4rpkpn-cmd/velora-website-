@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products | Velora</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header-background">
+        <span>VELORA • VELORA • VELORA • VELORA • VELORA •</span>
+    </div>
+<div class="logo">
+    <img src="images/logo.png" alt="Velora Logo">
+</div>
+
+<div class="search-bar">
+
+<input type="text" id="searchBar" placeholder="Search products...">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</div>
+
+<div class="header-icons">
+
+<a href="#" onclick="openProfile()">
+    <i class="fa-solid fa-user"></i>
+</a>
+
+<a href="basket.html">
+    <i class="fa-solid fa-cart-shopping"></i>
+</a>
+
+<div class="menu">
+
+<i class="fa-solid fa-bars"></i>
+
+<div class="dropdown">
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="#">Contact</a>
+<a href="#">Account</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- Promotion Bar -->
+<section class="promo-bar">
+    <p>35% off selected products.</p>
+    <p>Free delivery over £75 worth of goods</p>
+</section>
+<section class="products-page">
+
+<main class="contact-page">
+
+    <h1 class="contact-title">DRESS LOUD. LIVE BOLD.</h1>
+
+    <div class="contact-container">
+
+        <!-- Left Column -->
+        <div class="contact-left">
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="contact-right">
+
+        </div>
+
+    </div>
+
+</main>
+
+<h1>OUR COLLECTION</h1>
+
+<div class="products-layout">
+
+<aside class="filters">
+
+<h2>Filter</h2>
+
+<h3>Category</h3>
+
+<label><input type="checkbox"> Hoodies</label>
+
+<label><input type="checkbox"> Jackets</label>
+
+<label><input type="checkbox"> Dresses</label>
+
+<label><input type="checkbox"> Jeans</label>
+
+<label><input type="checkbox"> Shoes</label>
+
+<h3>Price</h3>
+
+<label><input type="checkbox"> Under £25</label>
+
+<label><input type="checkbox"> £25 - £50</label>
+
+<label><input type="checkbox"> £50+</label>
+
+</aside>
+
+<div class="shop">
+
+<div class="sort">
+
+<label>Sort By:</label>
+
+<select>
+
+<option>Newest</option>
+
+<option>Price: Low to High</option>
+
+<option>Price: High to Low</option>
+
+<option>Best Selling</option>
+
+</select>
+
+</div>
+
+<section class="product-grid">
+<div class="product-card" data-name="dark blue flared work trousers trousers work blue">
+
+    <div class="image-box">
+        <img src="images/flared work trousers.png" alt="Flared Work Trousers">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>Dark Blue, Flared Work Trousers</h3>
+
+    <p class="price">£23.49</p>
+
+    <button onclick="addToBasket(
+'Dark Blue Flared Work Trousers',
+'23.49',
+'images/flared work trousers.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="white blazer">
+
+    <div class="image-box">
+        <img src="images/2 in 1 smart white blazer.png" alt="2 in 1 smart white blazer">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>white 2 in 1 casual & smart blazer</h3>
+
+    <p class="price">£36.00</p>
+
+    <button onclick="addToBasket(
+'white 2 in 1 casual & smart blazer',
+'36.00',
+'images/2 in 1 smart white blazer.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="button up jacket">
+
+    <div class="image-box">
+        <img src="images/button up jacket.png" alt="Button Up Jacket">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>cream sleek button up jacket</h3>
+
+    <p class="price">£19.50</p>
+
+    <button onclick="addToBasket(
+'cream sleek button up jacket',
+'19.50',
+'images/button up jacket.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="dark green blazer">
+
+    <div class="image-box">
+        <img src="images/dark green blazer.png" alt="Dark Green Blazer">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>2-piece dark green blazer/trouser</h3>
+
+    <p class="price">£41.99</p>
+
+    <button onclick="addToBasket(
+'2-piece dark green blazer',
+'41.99',
+'images/dark green blazer.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="grey striped tracksuit">
+
+    <div class="image-box">
+        <img src="images/grey striped tracksuit.png" alt="Grey Striped Tracksuit">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>grey, white striped tracksuit</h3>
+
+    <p class="price">£35.60</p>
+
+    <button onclick="addToBasket(
+'grey, white striped tracksuit',
+'35.60',
+'images/grey striped tracksuit.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="denim slit skirt">
+
+    <div class="image-box">
+        <img src="images/slit skirt.png" alt="Slit Skirt">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>denim blue high slit skirt</h3>
+
+    <p class="price">£21.99</p>
+
+    <button onclick="addToBasket(
+'denim blue high slit skirt',
+'21.99',
+'images/slit skirt.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="red jumper">
+
+    <div class="image-box">
+        <img src="images/red jumper.png" alt="Red Jumper">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>red, casual jumper</h3>
+
+    <p class="price">£38.50</p>
+
+    <button onclick="addToBasket(
+'red, casual jumper',
+'38.50',
+'images/red jumper.png'
+)">
+Add to Basket
+</button>
+
+</div>
+<div class="product-card" data-name="blue slit dress dress">
+
+    <div class="image-box">
+        <img src="images/blue slit dress.png" alt="Blue Slit Dress">
+
+        <i class="fa-regular fa-heart favourite"></i>
+    </div>
+
+    <h3>long slit, blue square neck dress</h3>
+
+    <p class="price">£43.20</p>
+
+    <button onclick="addToBasket(
+'long slit, blue square neck dress',
+'43.20',
+'images/blue slit dress.png'
+)">
+Add to Basket
+</button>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>VELORA</h3>
+
+            <p>
+                Fashion designed to help you express your unique style every day.
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home Page</a>
+
+<a href="product.html">Product Page</a>
+
+<a href="new-arrivals.html">New Arrivals</a>
+
+<a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Customer Service</h3>
+
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQs</a>
+            <a href="#">Size Guide</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>📍 London, United Kingdom</p>
+            <p>📞 01234 567890</p>
+            <p>✉️ info@velora.co.uk</p>
+
+        </div>
+
+    </div>
+
+    <div class="social-icons">
+
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Velora. All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- Profile Popup -->
+
+<div id="profilePopup" class="popup">
+
+    <div class="popup-content">
+
+        <span class="close" onclick="closeProfile()">&times;</span>
+
+        <h2>My Profile</h2>
+
+        <input type="text" placeholder="Full Name">
+
+        <input type="email" placeholder="Email Address">
+
+        <input type="tel" placeholder="Phone Number">
+
+        <input type="text" placeholder="Address">
+
+        <button onclick="saveProfile()">Save Details</button>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+<script src="basket.js"></script>
+</body>
+
+</html>

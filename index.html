@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Velora</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+<div class="header-background">
+        <span>VELORA • VELORA • VELORA • VELORA • VELORA •</span>
+    </div>
+<div class="logo">
+    <img src="images/logo.png" alt="Velora Logo">
+</div>
+
+<div class="search-bar">
+
+<input type="text" id="searchBar" placeholder="Search products...">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</div>
+
+<div class="header-icons">
+
+<a href="#" onclick="openProfile()">
+    <i class="fa-solid fa-user"></i>
+</a>
+
+<a href="basket.html">
+    <i class="fa-solid fa-cart-shopping"></i>
+</a>
+
+<div class="menu">
+
+<i class="fa-solid fa-bars"></i>
+
+<div class="dropdown">
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="#">Contact</a>
+<a href="#">Account</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+    <h2>DRESS LOUD. LIVE BOLD.</h2>
+
+    <div class="hero-grid">
+
+        <!-- Sale -->
+        <div class="hero-box sale">
+            <img src="images/joggers front.png" alt="Joggers">
+
+            <div class="overlay">
+                <h3>UP TO</h3>
+                <p>35% OFF SELECTED ITEMS</p>
+            </div>
+        </div>
+
+        <!-- Smart Wear -->
+        <div class="hero-box smart">
+            <img src="images/blazer front.png" alt="Blazer Front">
+
+            <div class="overlay-bottom">
+                SMART WEAR
+            </div>
+        </div>
+
+        <div class="hero-right">
+
+            <!-- Best Sellers -->
+            <div class="hero-box bestseller">
+                <img src="images/brown front.png" alt="Brown Front">
+
+                <div class="overlay-top">
+                    BEST SELLERS
+                </div>
+            </div>
+
+            <!-- Streetwear -->
+            <div class="hero-box street">
+                <img src="images/blue front.png" alt="Blue Front">
+
+                <div class="overlay-bottom">
+                    STREETWEAR
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="categories">
+
+    <div class="category">
+        <div class="category-image">
+            <img src="images/signature styles.png" alt="Signature Styles" class="category-img">
+        </div>
+        <h2>SIGNATURE STYLES</h2>
+        <p>Timeless outfits for every occasion.</p>
+        <button>Shop Now</button>
+    </div>
+
+    <div class="category">
+        <div class="category-image">
+            <img src="images/night out.png" alt="Night Out" class="category-img">
+        </div>
+        <h2>A NIGHT OUT</h2>
+        <p>Perfect looks for evenings and events.</p>
+        <button>Shop Now</button>
+    </div>
+
+    <div class="category">
+        <div class="category-image">
+            <img src="images/new arrivals.png" alt="New Arrivals" class="category-img">
+        </div>
+        <h2>NEW ARRIVALS</h2>
+        <p>Explore the latest fashion trends.</p>
+        <button>Shop Now</button>
+    </div>
+
+</section>
+
+<!-- TRENDING PRODUCTS -->
+
+<section class="trending">
+
+    <h2>Trending Now</h2>
+
+    <div class="products">
+
+        <div class="product-card">
+            <img src="images/ripped jeans trending.png" alt="Ripped Jeans">
+            <h3>Sleek Ripped Jeans</h3>
+            <p>£17.90</p>
+            <button onclick="window.location.href='basket.html'">
+    Add to Basket
+</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/two piece skirt set trending.png" alt="Two Piece Set">
+            <h3>2 Piece Skirt & Jacket</h3>
+            <p>£56.99</p>
+            <button onclick="window.location.href='basket.html'">
+    Add to Basket
+</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/brown suit wear trending.png" alt="Brown Suit">
+            <h3>Brown Suit</h3>
+            <p>£64.50</p>
+            <button onclick="window.location.href='basket.html'">
+    Add to Basket
+</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT US -->
+
+<section class="about">
+
+    
+    </div>
+
+    <div class="about-text">
+
+        <h2>ABOUT VELORA</h2>
+
+        <p>
+            At Velora, we believe fashion is about expressing your individuality
+            with confidence. Our collections combine timeless style with modern
+            trends to create clothing you'll love wearing every day.
+        </p>
+
+        <p>
+            From casual essentials to statement pieces, every item is carefully
+            selected to offer comfort, quality and style.
+        </p>
+
+        <button onclick="openAbout()">Learn More</button>
+
+    </div>
+
+</section>
+<!-- CUSTOMER REVIEWS -->
+
+<section class="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+
+            <h3>★★★★★</h3>
+
+            <p>
+                "Amazing quality clothing and super fast delivery!
+                I'll definitely be shopping here again."
+            </p>
+
+            <h4>- Emily R.</h4>
+
+        </div>
+
+        <div class="review-card">
+
+            <h3>★★★★★</h3>
+
+            <p>
+                "The clothes fit perfectly and look exactly like
+                the pictures. Highly recommend!"
+            </p>
+
+            <h4>- Sophie M.</h4>
+
+        </div>
+
+        <div class="review-card">
+
+            <h3>★★★★☆</h3>
+
+            <p>
+                "Beautiful styles and great customer service.
+                My new favourite clothing shop."
+            </p>
+
+            <h4>- Jessica L.</h4>
+
+        </div>
+
+    </div>
+
+    <a href="contact.html" class="review-btn">
+    Write a Review
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>VELORA</h3>
+
+            <p>
+                Fashion designed to help you express your unique style every day.
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home Page</a>
+
+<a href="product.html">Product Page</a>
+
+<a href="new-arrivals.html">New Arrivals</a>
+
+<a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Customer Service</h3>
+
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQs</a>
+            <a href="#">Size Guide</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>📍 London, United Kingdom</p>
+            <p>📞 01234 567890</p>
+            <p>✉️ info@velora.co.uk</p>
+
+        </div>
+
+    </div>
+
+    <div class="social-icons">
+
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Velora. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<!-- Profile Popup -->
+
+<div id="profilePopup" class="popup">
+
+    <div class="popup-content">
+
+        <span class="close" onclick="closeProfile()">&times;</span>
+
+        <h2>My Profile</h2>
+
+        <input type="text" placeholder="Full Name">
+
+        <input type="email" placeholder="Email Address">
+
+        <input type="tel" placeholder="Phone Number">
+
+        <input type="text" placeholder="Address">
+
+        <button onclick="saveProfile()">Save Details</button>
+
+    </div>
+
+</div>
+<!-- About Popup -->
+
+<div id="aboutPopup" class="popup">
+
+    <div class="popup-content">
+
+        <span class="close" onclick="closeAbout()">&times;</span>
+
+        <h2>About Velora</h2>
+
+        <p>
+            Velora was created to help people express their individuality through
+            stylish, modern and affordable fashion. Every collection is designed
+            to combine comfort with confidence.
+        </p>
+
+        <p>
+            Our clothing ranges from everyday essentials to statement pieces,
+            allowing customers to build a wardrobe that suits every occasion.
+            Quality and customer satisfaction are at the heart of everything we do.
+        </p>
+
+        <p>
+            We believe fashion should inspire confidence and creativity.
+            Whether you're dressing for work, a night out or relaxing with friends,
+            Velora has something to match your style.
+        </p>
+
+    </div>
+
+</div>
+</body>
+</html>
